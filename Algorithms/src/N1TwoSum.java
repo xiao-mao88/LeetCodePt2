@@ -8,7 +8,7 @@ You can return the answer in any order.
  */
 
 
-public class n1TwoSum {
+public class N1TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         int first = 0;
         int second = 0;
