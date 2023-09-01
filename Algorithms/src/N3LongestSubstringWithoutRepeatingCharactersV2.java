@@ -9,7 +9,9 @@ public class N3LongestSubstringWithoutRepeatingCharactersV2 {
 
         for(int right = 0, left = 0; right < s.length(); right++) {
             int index = s.indexOf(s.charAt(right), left);
-            if(index != right) left = index + 1;
+            if(index != right){
+                left = index + 1;
+            }
             length = Math.max(length, right - left + 1);
         }
 
