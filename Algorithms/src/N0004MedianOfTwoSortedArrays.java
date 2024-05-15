@@ -2,7 +2,7 @@
 // return the median of the two sorted arrays.
 import java.util.Arrays;
 
-public class N4MedianOfTwoSortedArrays {
+public class N0004MedianOfTwoSortedArrays {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int length = nums1.length+nums2.length;
         int[] arr = new int[length];

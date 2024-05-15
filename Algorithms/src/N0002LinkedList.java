@@ -1,14 +1,14 @@
-public class N2LinkedList {
-    N2ListNode head = null;
+public class N0002LinkedList {
+    N0002ListNode head = null;
 
     public void add (int n){
-        N2ListNode newNode = new N2ListNode(n);
+        N0002ListNode newNode = new N0002ListNode(n);
         if (head == null) {
             head = newNode;
         }
 
         else{
-            N2ListNode last = head;
+            N0002ListNode last = head;
             while(last.next!=null){
                 last = last.next;
             }
@@ -20,7 +20,7 @@ public class N2LinkedList {
     public String toString() {
         String retStr = "Contents:\n";
 
-        N2ListNode current = head;
+        N0002ListNode current = head;
         while (current != null) {
             retStr += current.getData() + "\n";
             current = current.getNext();

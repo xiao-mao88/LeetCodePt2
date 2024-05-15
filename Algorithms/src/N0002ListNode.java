@@ -1,16 +1,16 @@
-public class N2ListNode {
+public class N0002ListNode {
     int val;
-    N2ListNode next;
-    N2ListNode() {}
-    N2ListNode(int val) { this.val = val; }
-    N2ListNode(int val, N2ListNode next) { this.val = val; this.next = next; }
+    N0002ListNode next;
+    N0002ListNode() {}
+    N0002ListNode(int val) { this.val = val; }
+    N0002ListNode(int val, N0002ListNode next) { this.val = val; this.next = next; }
 
     public int getData()
     {
         return val;
     }
 
-    public N2ListNode getNext()
+    public N0002ListNode getNext()
     {
         return next;
     }
@@ -18,7 +18,7 @@ public class N2ListNode {
     public String toString() {
         String retStr = "" + val;
 
-        N2ListNode current = next;
+        N0002ListNode current = next;
         while (current != null) {
             retStr += current.getData();
             current = current.getNext();

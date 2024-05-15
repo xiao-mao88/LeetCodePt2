@@ -4,11 +4,11 @@ You are given two non-empty linked lists representing two non-negative integers.
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
  */
 
-public class N2AddTwoNumbers {
+public class N0002AddTwoNumbers {
 
-    public static N2ListNode addTwoNumbers(N2ListNode l1, N2ListNode l2) {
-        N2ListNode temp = new N2ListNode(0);
-        N2ListNode head = temp;
+    public static N0002ListNode addTwoNumbers(N0002ListNode l1, N0002ListNode l2) {
+        N0002ListNode temp = new N0002ListNode(0);
+        N0002ListNode head = temp;
         int carry = 0;
         while (l1 != null || l2 != null || carry>0 ) {
             int sum = carry;
@@ -26,7 +26,7 @@ public class N2AddTwoNumbers {
 
             sum %=10;
 
-            head.next = new N2ListNode(sum);
+            head.next = new N0002ListNode(sum);
 
             head = head.next;
 
@@ -37,12 +37,12 @@ public class N2AddTwoNumbers {
     }
 
     public static void main (String[] args){
-        N2LinkedList trial1 = new N2LinkedList();
+        N0002LinkedList trial1 = new N0002LinkedList();
         trial1.add(2);
         trial1.add(4);
         trial1.add(3);
 
-        N2LinkedList trial2 = new N2LinkedList();
+        N0002LinkedList trial2 = new N0002LinkedList();
         trial2.add(5);
         trial2.add(6);
         trial2.add(4);

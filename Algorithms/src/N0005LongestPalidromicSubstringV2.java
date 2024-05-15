@@ -7,7 +7,7 @@ In this way, it is faster than my other solution, as the other solution has to i
 multiple times
  */
 
-public class N5LongestPalidromicSubstringV2 {
+public class N0005LongestPalidromicSubstringV2 {
     int start = 0; // Initialize the start index for the longest palindrome.
     int max = 0;   // Initialize the length of the longest palindrome.
 

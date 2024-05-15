@@ -1,6 +1,6 @@
 //Given a string s, return the longest palindromic substring in s
 
-public class N5LongestPalidromicSubstring {
+public class N0005LongestPalidromicSubstring {
     public static String longestPalindrome(String s) {
         String nstr = "";
         for(int i=0; i<s.length(); i++){

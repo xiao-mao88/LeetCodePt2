@@ -7,7 +7,7 @@ It beat 87.94% of other java online users in speed & 86.11% for memory usage
 import java.util.HashMap;
 import java.util.Map;
 
-public class N3LongestSubstringWithoutRepeatingCharactersV3 {
+public class N0003LongestSubstringWithoutRepeatingCharactersV3 {
     public static int lengthOfLongestSubstring(String s) {
         int ans = 0;
         Map<Character, Integer> map = new HashMap<>();
