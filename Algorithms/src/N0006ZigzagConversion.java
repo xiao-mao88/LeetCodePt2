@@ -1,5 +1,9 @@
 /*
-
+Writes a string in a zigzag given the number of rows and then creates a new string with the pattern
+(to see this in action you can uncomment the commented out code)
+Runtime: 106 ms, faster than 5.04% of Java online submissions for Zigzag Conversion.
+Memory Usage: 53.3 MB, less than 5.23% of Java online submissions for Zigzag Conversion.
+Note to self: rewrite a better version
  */
 
 import java.util.ArrayList;
@@ -37,6 +41,12 @@ public class N0006ZigzagConversion {
                     zag.add("");
                 }
             }
+            /*
+            for (int m=0; m<numRows; m++){
+                System.out.print(zag.get(m));
+            }
+            System.out.println("");
+             */
             col++;
             zig.add(zag);
         }
