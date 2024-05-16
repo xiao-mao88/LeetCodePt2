@@ -13,7 +13,7 @@ public class N0007ReverseInteger {
 
             int digit = x % 10;
             long test = (long)rev * 10 + digit;
-            if (test > Integer.MAX_VALUE|| test < Integer.MIN_VALUE){
+            if (test > Integer.MAX_VALUE || test < Integer.MIN_VALUE){
                 return 0;
             }
 
