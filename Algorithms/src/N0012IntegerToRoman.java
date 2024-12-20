@@ -1,4 +1,4 @@
-public class N00012IntegerToRoman {
+public class N0012IntegerToRoman {
   public static String romanNum(int num) {
     String[] ones = {"","I","II","III","IV","V","VI","VII","VIII","IX"};
     String[] tens = {"","X","XX","XXX","XL","L","LX","LXX","LXXX","XC"};
