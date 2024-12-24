@@ -1,6 +1,5 @@
 import java.util.Arrays;
 /*
-
 Runtime: 1 ms, faster than 64.78% of Java online submissions for Longest Common Prefix.
 Memory Usage: 41.3 MB, less than 74.50% of Java online submissions for Longest Common Prefix.
 
