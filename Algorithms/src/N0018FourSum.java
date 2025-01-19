@@ -36,7 +36,7 @@ public class N0018FourSum {
             else if (res.contains(Arrays.asList(nums[i], nums[j], nums[k], nums[l]))) {
               break;
             }
-            else if (nums[i] + nums[j] + nums[k] + nums[l] == target) {
+            else if ((long) nums[i] + nums[j] + nums[k] + nums[l] == target) {
               res.add(Arrays.asList(nums[i], nums[j], nums[k], nums[l]));
             }
           }
