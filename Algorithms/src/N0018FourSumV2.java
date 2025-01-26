@@ -3,7 +3,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
-
+Runtime: 19 ms, faster than 35.04% of Java online submissions for 4Sum.
+Memory Usage: 44.07 MB, less than 49.81% of Java online submissions for 4Sum.
  */
 
 public class N0018FourSumV2 {
