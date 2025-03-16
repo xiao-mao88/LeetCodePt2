@@ -1,8 +1,8 @@
 /*
 Given the head of a linked list, remove the nth node from the end of the list and return its head.
 
-Runtime: 0 ms, faster than 100.00% of Java online submissions for 3Sum Closest.
-Memory Usage: 41.88 MB, less than 44.28% of Java online submissions for 3Sum Closest.
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Remove Nth Node From End of List.
+Memory Usage: 41.88 MB, less than 44.28% of Java online submissions for Remove Nth Node From End of List.
  */
 
 public class N0019RemoveNthNodeFromEndOfList {
